@@ -1,0 +1,27 @@
+uuid: d2510a5d-8334-400e-9b82-4f376f310443
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f5512103-fb84-4a5c-b58e-ecd42823c208'
+  module:
+    - block_content
+    - collapsiblock
+  theme:
+    - locationlandscapes
+third_party_settings:
+  collapsiblock:
+    collapse_action: 1
+id: locationlandscapes_footerlogos
+theme: locationlandscapes
+region: upper_footer
+weight: -7
+provider: null
+plugin: 'block_content:f5512103-fb84-4a5c-b58e-ecd42823c208'
+settings:
+  id: 'block_content:f5512103-fb84-4a5c-b58e-ecd42823c208'
+  label: 'Footer logos'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

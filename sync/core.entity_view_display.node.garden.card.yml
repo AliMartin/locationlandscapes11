@@ -1,0 +1,45 @@
+uuid: b838256d-8c46-4ccf-9a29-e3d63be8d018
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.card
+    - field.field.node.garden.body
+    - field.field.node.garden.field_designer
+    - field.field.node.garden.field_designer_website
+    - field.field.node.garden.field_hover_image
+    - field.field.node.garden.field_image
+    - field.field.node.garden.field_show_garden
+    - field.field.node.garden.field_video
+    - image.style.card
+    - node.type.garden
+  module:
+    - image_hover_effects
+    - user
+id: node.garden.card
+targetEntityType: node
+bundle: garden
+mode: card
+content:
+  field_hover_image:
+    type: image_hover_effects_image
+    label: visually_hidden
+    settings:
+      image_style: card
+      image_link: content
+      hover_effect: fade_in_up
+      hover_text: '[node:title]'
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  body: true
+  field_designer: true
+  field_designer_website: true
+  field_image: true
+  field_show_garden: true
+  field_video: true
+  langcode: true
+  links: true

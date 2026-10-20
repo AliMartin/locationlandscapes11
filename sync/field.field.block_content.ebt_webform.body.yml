@@ -1,0 +1,26 @@
+uuid: da0159d1-0d94-46d6-b16d-9df904f8ff20
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_webform
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: Baa8yf9wUinT0D2-5V7tRKydSUOfQvZsUuTvSBeC-bQ
+id: block_content.ebt_webform.body
+field_name: body
+entity_type: block_content
+bundle: ebt_webform
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

@@ -1,0 +1,79 @@
+uuid: 10e1b1a8-3582-4034-9000-e90baa633214
+langcode: en-gb
+status: true
+dependencies: {  }
+id: garden
+name: garden
+weight: 0
+label: Garden
+group: ''
+skin: fullscreen
+breakpoint: 0
+optimized: false
+options:
+  settings:
+    type: fade
+    mediaQuery: max
+    rewind: true
+    rewindByDrag: false
+    speed: 500
+    rewindSpeed: 0
+    waitForTransition: false
+    width: '0'
+    height: '0'
+    fixedWidth: '0'
+    fixedHeight: '0'
+    heightRatio: '0'
+    autoWidth: false
+    autoHeight: false
+    perPage: 1
+    perMove: 0
+    clones: 0
+    cloneStatus: true
+    start: 0
+    focus: '0'
+    gap: '0'
+    padding: ''
+    easing: 'cubic-bezier(.42,.65,.27,.99)'
+    arrows: 'true'
+    arrowPath: ''
+    pagination: 'false'
+    paginationDirection: ltr
+    paginationKeyboard: false
+    omitEnd: false
+    autoplay: false
+    interval: 5000
+    pauseOnHover: false
+    pauseOnFocus: false
+    progress: false
+    resetProgress: true
+    keyboard: 'false'
+    drag: 'true'
+    snap: false
+    noDrag: ''
+    dragMinThreshold: 10
+    flickVelocityThreshold: 0.6
+    flickPower: 600
+    flickMaxPages: 1
+    direction: ltr
+    cover: false
+    slideFocus: false
+    focusableNodes: 'a, button, textarea, input, select, iframe'
+    isNavigation: false
+    trimSpace: 'true'
+    live: true
+    updateOnMove: false
+    classes: ''
+    i18n: ''
+    autoScroll: ''
+    intersection: ''
+    down: false
+    downTarget: ''
+    downOffset: 0
+    easingOverride: ''
+    randomize: false
+    wheel: false
+    releaseWheel: false
+    wheelMinThreshold: 0
+    wheelSleep: 0
+    animation: ''

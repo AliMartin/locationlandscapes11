@@ -1,0 +1,90 @@
+.view-gardens,
+.view-show-gardens,
+.view-press {
+  margin-top: 60px;
+
+  .view-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  h2 {
+    display: none;
+  }
+  .views-row {
+    width: 350px; // This is set to the same width as the "card" image formatter
+  }
+  img {
+    border-radius: $border-radius-img;
+  }
+  .ihe-overlay:hover:before {
+    opacity: 0.65;
+    border-radius: $border-radius-img;
+  }
+  .ihe-overlay:after {
+    font-size: inherit;
+  }
+}
+
+
+
+.view-staff {
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+  
+  .views-row {
+    margin-bottom: 4.5rem;
+  }
+  .views-field-field-staff-photo,
+  .views-field-title,
+  .views-field-field-position {
+    text-align: center;
+  }
+  .views-field-field-staff-photo {
+    margin-bottom: 0.5rem;
+  }
+  .views-field-field-position {
+    margin-bottom: 0.5rem;
+    font-size: x-large;
+  }
+}
+
+
+
+.view-testimonials {
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+  
+  .views-row {
+    margin-bottom: 4.5rem;
+  }
+
+  .views-field-title {
+    font-size: x-large;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    padding-left: 60px;
+  }
+
+  .views-field-body {
+    padding-left: 60px;
+  }
+
+  .views-field-body:before {
+    content: "\f10d";
+    font-family: 'Font Awesome 6 Pro';
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 600;
+    color: $purple;
+    display: inline-block;
+    width: 0;
+    float: left;
+    position: relative;
+    left: -60px;
+    top: -2px;
+  }
+}

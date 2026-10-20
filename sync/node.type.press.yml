@@ -1,0 +1,17 @@
+uuid: 37c39247-1e65-42c8-a69a-e2035164f34d
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Press
+type: press
+description: 'Add <em>press releases</em> to the website.'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

@@ -1,0 +1,27 @@
+uuid: 435cbb8b-860d-4212-9359-b3f2588fb3bd
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6187d514-bde8-412e-9562-98297653496a'
+  module:
+    - block_content
+    - collapsiblock
+  theme:
+    - locationlandscapes
+third_party_settings:
+  collapsiblock:
+    collapse_action: 0
+id: locationlandscapes_contactbuttons
+theme: locationlandscapes
+region: header_right
+weight: -5
+provider: null
+plugin: 'block_content:6187d514-bde8-412e-9562-98297653496a'
+settings:
+  id: 'block_content:6187d514-bde8-412e-9562-98297653496a'
+  label: 'Contact buttons'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

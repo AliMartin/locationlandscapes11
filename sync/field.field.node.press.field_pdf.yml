@@ -1,0 +1,27 @@
+uuid: b5de4cd1-eba3-4646-80bd-48812f1c8ec1
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pdf
+    - node.type.press
+  module:
+    - file
+id: node.press.field_pdf
+field_name: field_pdf
+entity_type: node
+bundle: press
+label: PDF
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: pdf
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+field_type: file

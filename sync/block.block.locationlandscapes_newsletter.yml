@@ -1,0 +1,27 @@
+uuid: 6bc910c7-9e87-459b-aa7d-90974f392123
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:ebt_webform:47b521b8-09ad-436b-9940-2293c05ca072'
+  module:
+    - block_content
+    - collapsiblock
+  theme:
+    - locationlandscapes
+third_party_settings:
+  collapsiblock:
+    collapse_action: 1
+id: locationlandscapes_newsletter
+theme: locationlandscapes
+region: lower_footer
+weight: -9
+provider: null
+plugin: 'block_content:47b521b8-09ad-436b-9940-2293c05ca072'
+settings:
+  id: 'block_content:47b521b8-09ad-436b-9940-2293c05ca072'
+  label: 'Sign up to our newsletter'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,178 @@
+{
+    "name": "drupal/legacy-project",
+    "description": "Project template for Drupal projects with composer following drupal/drupal layout",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://www.drupal.org/project/drupal",
+    "support": {
+        "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
+        "chat": "https://www.drupal.org/node/314178"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jackmoore/colorbox",
+                "version": "1.6.4",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "mozilla/pdf.js",
+              "version": "3.11.174",
+              "type": "drupal-library",
+              "dist": {
+                "url": "https://github.com/mozilla/pdf.js/releases/download/v3.11.174/pdfjs-3.11.174-dist.zip",
+                "type": "zip"
+              }
+            }
+          }
+    ],
+    "require": {
+        "bower-asset/fitvids": "^1.0",
+        "bower-asset/mmenu": "^8.0",
+        "composer/installers": "^2.0",
+        "cweagans/composer-patches": "^1.7",
+        "drupal/admin_toolbar": "^3.4",
+        "drupal/background_image_formatter": "^2.0",
+        "drupal/backup_migrate": "^5.0",
+        "drupal/bootstrap5": "^3.0",
+        "drupal/collapsiblock": "^4.1",
+        "drupal/colorbox": "^2.0",
+        "drupal/colorbox_media_video": "^2.0",
+        "drupal/context": "^5.0@RC",
+        "drupal/core-composer-scaffold": "^10.1",
+        "drupal/core-project-message": "^10.1",
+        "drupal/core-recommended": "^10.1",
+        "drupal/core-vendor-hardening": "^10.1",
+        "drupal/draggableviews": "^2.1",
+        "drupal/ebt_webform": "^1.4",
+        "drupal/eu_cookie_compliance": "^1.24",
+        "drupal/extlink": "^1.7 | ^2.0",
+        "drupal/fitvids": "^2.0",
+        "drupal/honeypot": "^2.1",
+        "drupal/image_hover_effects": "^2.0",
+        "drupal/image_widget_crop": "^2.4",
+        "drupal/insert_view": "^2.1",
+        "drupal/jquery_ui": "^1.6",
+        "drupal/metatag": "^2.0",
+        "drupal/pathauto": "^1.12",
+        "drupal/pdf": "^1.0",
+        "drupal/responsive_favicons": "^2.0",
+        "drupal/responsive_menu": "^5.0@alpha",
+        "drupal/simple_gmap": "^3.1",
+        "drupal/slick": "^2.10 | ^3.0",
+        "drupal/twig_tweak": "^3.2",
+        "drupal/views_slideshow": "^5.0",
+        "drupal/webform": "^6.2@RC",
+        "drush/drush": "^12",
+        "jackmoore/colorbox": "^1.6",
+        "mozilla/pdf.js": "*",
+        "npm-asset/blazy": "^1.8",
+        "npm-asset/cropper": "^4.1",
+        "npm-asset/slick-carousel": "^1.8",
+        "npm-asset/superfish": "^1.7",
+        "oomphinc/composer-installers-extender": "^2.0"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true,
+            "drupal/core-vendor-hardening": true,
+            "phpstan/extension-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "oomphinc/composer-installers-extender": true,
+            "cweagans/composer-patches": true
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "enable-patching": true,
+        "patches": {
+            "drupal/colorbox_media_video": {
+                "Add responsive video option to field formatter": "https://www.drupal.org/files/issues/2023-02-24/3300344-colorbox_media_video--responsive-video-option-5.patch"
+            }
+        },
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "./"
+            }
+        },
+        "installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ],
+        "installer-paths": {
+            "core": [
+                "type:drupal-core"
+            ],
+            "libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
+            ],
+            "modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ],
+            "modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "profiles/custom/{$name}": [
+                "type:drupal-custom-profile"
+            ],
+            "themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ]
+        },
+        "drupal-core-project-message": {
+            "include-keys": [
+                "homepage",
+                "support"
+            ],
+            "post-create-project-cmd-message": [
+                "<bg=blue;fg=white>                                                         </>",
+                "<bg=blue;fg=white>  Congratulations, you’ve installed the Drupal codebase  </>",
+                "<bg=blue;fg=white>  from the drupal/legacy-project template!               </>",
+                "<bg=blue;fg=white>                                                         </>",
+                "",
+                "<bg=yellow;fg=black>Next steps</>:",
+                "  * Install the site: https://www.drupal.org/docs/installing-drupal",
+                "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
+                "  * Get support: https://www.drupal.org/support",
+                "  * Get involved with the Drupal community:",
+                "      https://www.drupal.org/getting-involved",
+                "  * Remove the plugin that prints this message:",
+                "      composer remove drupal/core-project-message"
+            ]
+        }
+    }
+}

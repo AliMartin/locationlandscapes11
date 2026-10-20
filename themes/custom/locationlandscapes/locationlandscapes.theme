@@ -1,0 +1,55 @@
+<?php
+
+/**
+ * @file
+ * Location Landscapes theme file.
+ */
+
+
+/**
+ * Prepares variables for media templates.
+ *
+ * Default template: media.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - media: An individual media for display.
+ */
+function locationlandscapes_preprocess_media(&$variables) {
+  $variables['media'] = $variables['elements']['#media'];
+}
+
+
+/**
+ * Adds content type suggestions to page template
+ * https://befused.com/drupal/page-template-content-type/
+ * Implements hook_theme_suggestions_page_alter().
+ */
+function locationlandscapes_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+	$suggestions[] = 'page__' . $node->bundle();
+  }
+}
+
+
+function locationlandscapes_preprocess_html(array &$variables) {
+    $route_match = \Drupal::routeMatch();
+    $title = \Drupal::service('title_resolver')->getTitle(\Drupal::request(), $route_match->getRouteObject());
+
+    if ($title) {
+        // title_resolver can return a render array rather than a plain string.
+        if (is_array($title)) {
+            $title = \Drupal::service('renderer')->renderInIsolation($title);
+        }
+
+        // Strip any remaining HTML tags (e.g. from #markup).
+        $title = strip_tags((string) $title);
+
+        $class = strtolower(preg_replace('/[^a-zA-Z0-9]+/', '-', $title));
+        $class = trim($class, '-');
+
+        if ($class) {
+            $variables['attributes']['class'][] = 'page-title-' . $class;
+        }
+    }
+}

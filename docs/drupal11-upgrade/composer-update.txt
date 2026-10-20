@@ -1,0 +1,356 @@
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 7 installs, 56 updates, 3 removals
+  - Removing consolidation/self-update (2.2.0)
+  - Removing sebastian/resource-operations (3.0.4)
+  - Removing symfony/phpunit-bridge (v6.4.48)
+  - Upgrading asm89/stack-cors (v2.3.0 => v2.4.0)
+  - Upgrading chi-teck/drupal-code-generator (3.6.1 => 4.2.0)
+  - Upgrading consolidation/config (2.1.2 => 3.2.1)
+  - Upgrading consolidation/robo (4.0.6 => 5.1.1)
+  - Upgrading doctrine/lexer (2.1.1 => 3.0.3)
+  - Upgrading drupal/core (10.6.19 => 11.4.10)
+  - Upgrading drupal/core-composer-scaffold (10.6.19 => 11.4.10)
+  - Upgrading drupal/core-dev (10.6.19 => 11.4.10)
+  - Upgrading drupal/core-project-message (10.6.19 => 11.4.10)
+  - Upgrading drupal/core-recommended (10.6.19 => 11.4.10)
+  - Upgrading drupal/core-vendor-hardening (10.6.19 => 11.4.10)
+  - Downgrading justinrainbow/json-schema (6.13.1 => 6.8.2)
+  - Locking php-tuf/composer-stager (v2.1.1)
+  - Upgrading phpunit/php-code-coverage (9.2.32 => 11.0.12)
+  - Upgrading phpunit/php-file-iterator (3.0.6 => 5.1.1)
+  - Upgrading phpunit/php-invoker (3.1.1 => 5.0.1)
+  - Upgrading phpunit/php-text-template (2.0.4 => 4.0.1)
+  - Upgrading phpunit/php-timer (5.0.3 => 7.0.1)
+  - Upgrading phpunit/phpunit (9.6.38 => 11.5.57)
+  - Locking revolt/event-loop (v1.0.9)
+  - Upgrading sebastian/cli-parser (1.0.2 => 3.0.2)
+  - Upgrading sebastian/code-unit (1.0.8 => 3.0.3)
+  - Upgrading sebastian/code-unit-reverse-lookup (2.0.3 => 4.0.1)
+  - Upgrading sebastian/comparator (4.0.10 => 6.3.3)
+  - Upgrading sebastian/complexity (2.0.3 => 4.0.1)
+  - Upgrading sebastian/diff (4.0.6 => 6.0.2)
+  - Upgrading sebastian/environment (5.1.5 => 7.2.1)
+  - Upgrading sebastian/exporter (4.0.9 => 6.3.2)
+  - Upgrading sebastian/global-state (5.0.8 => 7.0.2)
+  - Upgrading sebastian/lines-of-code (1.0.4 => 3.0.1)
+  - Upgrading sebastian/object-enumerator (4.0.4 => 6.0.1)
+  - Upgrading sebastian/object-reflector (2.0.4 => 4.0.1)
+  - Upgrading sebastian/recursion-context (4.0.7 => 6.0.3)
+  - Upgrading sebastian/type (3.2.1 => 5.1.3)
+  - Upgrading sebastian/version (3.0.2 => 5.0.2)
+  - Locking staabm/side-effects-detector (1.0.5)
+  - Upgrading symfony/browser-kit (v6.4.48 => v7.4.21)
+  - Upgrading symfony/console (v6.4.44 => v7.4.21)
+  - Upgrading symfony/css-selector (v6.4.45 => v7.4.18)
+  - Upgrading symfony/dependency-injection (v6.4.44 => v7.4.21)
+  - Upgrading symfony/dom-crawler (v6.4.44 => v7.4.17)
+  - Upgrading symfony/error-handler (v6.4.44 => v7.4.20)
+  - Upgrading symfony/event-dispatcher (v6.4.44 => v7.4.17)
+  - Upgrading symfony/filesystem (v6.4.44 => v7.4.21)
+  - Upgrading symfony/finder (v6.4.44 => v7.4.20)
+  - Upgrading symfony/http-foundation (v6.4.48 => v7.4.21)
+  - Upgrading symfony/http-kernel (v6.4.44 => v7.4.21)
+  - Upgrading symfony/lock (v6.4.48 => v7.4.21)
+  - Upgrading symfony/mailer (v6.4.44 => v7.4.19)
+  - Upgrading symfony/mime (v6.4.44 => v7.4.19)
+  - Locking symfony/polyfill-php85 (v1.43.0)
+  - Locking symfony/polyfill-php86 (v1.43.0)
+  - Upgrading symfony/process (v6.4.44 => v7.4.21)
+  - Upgrading symfony/psr-http-message-bridge (v6.4.32 => v7.4.21)
+  - Upgrading symfony/routing (v6.4.44 => v7.4.21)
+  - Locking symfony/runtime (v7.4.21)
+  - Upgrading symfony/serializer (v6.4.44 => v7.4.21)
+  - Upgrading symfony/string (v6.4.43 => v7.4.21)
+  - Upgrading symfony/validator (v6.4.44 => v7.4.21)
+  - Upgrading symfony/var-dumper (v6.4.44 => v7.4.21)
+  - Upgrading symfony/var-exporter (v6.4.44 => v7.4.18)
+  - Upgrading symfony/yaml (v6.4.48 => v7.4.21)
+  - Locking twig/html-extra (v3.29.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 7 installs, 56 updates, 3 removals
+  0/26 [>---------------------------]   0%
+ 11/26 [===========>----------------]  42%
+ 20/26 [=====================>------]  76%
+ 24/26 [=========================>--]  92%
+ 26/26 [============================] 100%
+  - Removing symfony/phpunit-bridge (v6.4.48)
+  - Removing sebastian/resource-operations (3.0.4)
+  - Removing consolidation/self-update (2.2.0)
+ 0/3 [>---------------------------]   0%
+ 3/3 [============================] 100%
+  - Upgrading drupal/core-dev (10.6.19 => 11.4.10)
+  - Upgrading drupal/core-recommended (10.6.19 => 11.4.10)
+  0/57 [>---------------------------]   0%
+ 25/57 [============>---------------]  43%
+ 43/57 [=====================>------]  75%
+ 56/57 [===========================>]  98%
+ 57/57 [============================] 100%
+    Cleaning: symfony/finder
+    Cleaning: symfony/console
+    Cleaning: symfony/yaml
+    Cleaning: symfony/validator
+    Cleaning: symfony/serializer
+    Cleaning: symfony/routing
+    Cleaning: symfony/http-foundation
+    Cleaning: symfony/psr-http-message-bridge
+    Cleaning: symfony/process
+    Cleaning: symfony/event-dispatcher
+    Cleaning: symfony/var-dumper
+    Cleaning: symfony/http-kernel
+    Cleaning: symfony/filesystem
+    Cleaning: symfony/dependency-injection
+    Cleaning: sebastian/diff
+    Cleaning: justinrainbow/json-schema
+    Cleaning: symfony/dom-crawler
+    Cleaning: symfony/css-selector
+    Cleaning: symfony/browser-kit
+    Cleaning: sebastian/recursion-context
+    Cleaning: sebastian/object-reflector
+    Cleaning: sebastian/object-enumerator
+    Cleaning: sebastian/global-state
+    Cleaning: sebastian/exporter
+    Cleaning: sebastian/environment
+    Cleaning: sebastian/comparator
+    Cleaning: phpunit/php-timer
+    Cleaning: sebastian/code-unit-reverse-lookup
+    Cleaning: phpunit/php-code-coverage
+    Cleaning: phpunit/phpunit
+1 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Package oomphinc/composer-installers-extender is abandoned, you should avoid using it. No replacement was suggested.
+Generating autoload files
+Hardening vendor directory with .htaccess file.
+97 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+Cleaning installed packages.
+No security vulnerability advisories found.
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 7 installs, 56 updates, 3 removals
+  - Removing consolidation/self-update (2.2.0)
+  - Removing sebastian/resource-operations (3.0.4)
+  - Removing symfony/phpunit-bridge (v6.4.48)
+  - Upgrading asm89/stack-cors (v2.3.0 => v2.4.0)
+  - Upgrading chi-teck/drupal-code-generator (3.6.1 => 4.2.0)
+  - Upgrading consolidation/config (2.1.2 => 3.2.1)
+  - Upgrading consolidation/robo (4.0.6 => 5.1.1)
+  - Upgrading doctrine/lexer (2.1.1 => 3.0.3)
+  - Upgrading drupal/core (10.6.19 => 11.4.10)
+  - Upgrading drupal/core-composer-scaffold (10.6.19 => 11.4.10)
+  - Upgrading drupal/core-dev (10.6.19 => 11.4.10)
+  - Upgrading drupal/core-project-message (10.6.19 => 11.4.10)
+  - Upgrading drupal/core-recommended (10.6.19 => 11.4.10)
+  - Upgrading drupal/core-vendor-hardening (10.6.19 => 11.4.10)
+  - Downgrading justinrainbow/json-schema (6.13.1 => 6.8.2)
+  - Locking php-tuf/composer-stager (v2.1.1)
+  - Upgrading phpunit/php-code-coverage (9.2.32 => 11.0.12)
+  - Upgrading phpunit/php-file-iterator (3.0.6 => 5.1.1)
+  - Upgrading phpunit/php-invoker (3.1.1 => 5.0.1)
+  - Upgrading phpunit/php-text-template (2.0.4 => 4.0.1)
+  - Upgrading phpunit/php-timer (5.0.3 => 7.0.1)
+  - Upgrading phpunit/phpunit (9.6.38 => 11.5.57)
+  - Locking revolt/event-loop (v1.0.9)
+  - Upgrading sebastian/cli-parser (1.0.2 => 3.0.2)
+  - Upgrading sebastian/code-unit (1.0.8 => 3.0.3)
+  - Upgrading sebastian/code-unit-reverse-lookup (2.0.3 => 4.0.1)
+  - Upgrading sebastian/comparator (4.0.10 => 6.3.3)
+  - Upgrading sebastian/complexity (2.0.3 => 4.0.1)
+  - Upgrading sebastian/diff (4.0.6 => 6.0.2)
+  - Upgrading sebastian/environment (5.1.5 => 7.2.1)
+  - Upgrading sebastian/exporter (4.0.9 => 6.3.2)
+  - Upgrading sebastian/global-state (5.0.8 => 7.0.2)
+  - Upgrading sebastian/lines-of-code (1.0.4 => 3.0.1)
+  - Upgrading sebastian/object-enumerator (4.0.4 => 6.0.1)
+  - Upgrading sebastian/object-reflector (2.0.4 => 4.0.1)
+  - Upgrading sebastian/recursion-context (4.0.7 => 6.0.3)
+  - Upgrading sebastian/type (3.2.1 => 5.1.3)
+  - Upgrading sebastian/version (3.0.2 => 5.0.2)
+  - Locking staabm/side-effects-detector (1.0.5)
+  - Upgrading symfony/browser-kit (v6.4.48 => v7.4.21)
+  - Upgrading symfony/console (v6.4.44 => v7.4.21)
+  - Upgrading symfony/css-selector (v6.4.45 => v7.4.18)
+  - Upgrading symfony/dependency-injection (v6.4.44 => v7.4.21)
+  - Upgrading symfony/dom-crawler (v6.4.44 => v7.4.17)
+  - Upgrading symfony/error-handler (v6.4.44 => v7.4.20)
+  - Upgrading symfony/event-dispatcher (v6.4.44 => v7.4.17)
+  - Upgrading symfony/filesystem (v6.4.44 => v7.4.21)
+  - Upgrading symfony/finder (v6.4.44 => v7.4.20)
+  - Upgrading symfony/http-foundation (v6.4.48 => v7.4.21)
+  - Upgrading symfony/http-kernel (v6.4.44 => v7.4.21)
+  - Upgrading symfony/lock (v6.4.48 => v7.4.21)
+  - Upgrading symfony/mailer (v6.4.44 => v7.4.19)
+  - Upgrading symfony/mime (v6.4.44 => v7.4.19)
+  - Locking symfony/polyfill-php85 (v1.43.0)
+  - Locking symfony/polyfill-php86 (v1.43.0)
+  - Upgrading symfony/process (v6.4.44 => v7.4.21)
+  - Upgrading symfony/psr-http-message-bridge (v6.4.32 => v7.4.21)
+  - Upgrading symfony/routing (v6.4.44 => v7.4.21)
+  - Locking symfony/runtime (v7.4.21)
+  - Upgrading symfony/serializer (v6.4.44 => v7.4.21)
+  - Upgrading symfony/string (v6.4.43 => v7.4.21)
+  - Upgrading symfony/validator (v6.4.44 => v7.4.21)
+  - Upgrading symfony/var-dumper (v6.4.44 => v7.4.21)
+  - Upgrading symfony/var-exporter (v6.4.44 => v7.4.18)
+  - Upgrading symfony/yaml (v6.4.48 => v7.4.21)
+  - Locking twig/html-extra (v3.29.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 7 installs, 56 updates, 3 removals
+  - Downloading sebastian/diff (6.0.2)
+  - Downloading symfony/lock (v7.4.21)
+  - Downloading symfony/dom-crawler (v7.4.17)
+  - Downloading symfony/css-selector (v7.4.18)
+  - Downloading symfony/browser-kit (v7.4.21)
+  - Downloading staabm/side-effects-detector (1.0.5)
+  - Downloading sebastian/version (5.0.2)
+  - Downloading sebastian/type (5.1.3)
+  - Downloading sebastian/recursion-context (6.0.3)
+  - Downloading sebastian/object-reflector (4.0.1)
+  - Downloading sebastian/object-enumerator (6.0.1)
+  - Downloading sebastian/global-state (7.0.2)
+  - Downloading sebastian/exporter (6.3.2)
+  - Downloading sebastian/environment (7.2.1)
+  - Downloading sebastian/comparator (6.3.3)
+  - Downloading sebastian/code-unit (3.0.3)
+  - Downloading sebastian/cli-parser (3.0.2)
+  - Downloading phpunit/php-timer (7.0.1)
+  - Downloading phpunit/php-text-template (4.0.1)
+  - Downloading phpunit/php-invoker (5.0.1)
+  - Downloading phpunit/php-file-iterator (5.1.1)
+  - Downloading sebastian/lines-of-code (3.0.1)
+  - Downloading sebastian/complexity (4.0.1)
+  - Downloading sebastian/code-unit-reverse-lookup (4.0.1)
+  - Downloading phpunit/php-code-coverage (11.0.12)
+  - Downloading phpunit/phpunit (11.5.57)
+  0/26 [>---------------------------]   0%
+ 11/26 [===========>----------------]  42%
+ 20/26 [=====================>------]  76%
+ 24/26 [=========================>--]  92%
+ 26/26 [============================] 100%
+  - Removing symfony/phpunit-bridge (v6.4.48)
+  - Removing sebastian/resource-operations (3.0.4)
+  - Removing consolidation/self-update (2.2.0)
+ 0/3 [>---------------------------]   0%
+ 3/3 [============================] 100%
+  - Installing symfony/runtime (v7.4.21): Extracting archive
+  - Upgrading drupal/core-composer-scaffold (10.6.19 => 11.4.10): Extracting archive
+  - Upgrading drupal/core-project-message (10.6.19 => 11.4.10): Extracting archive
+  - Upgrading drupal/core-vendor-hardening (10.6.19 => 11.4.10): Extracting archive
+  - Upgrading symfony/finder (v6.4.44 => v7.4.20): Extracting archive
+  - Upgrading symfony/string (v6.4.43 => v7.4.21): Extracting archive
+  - Upgrading symfony/console (v6.4.44 => v7.4.21): Extracting archive
+  - Upgrading symfony/mime (v6.4.44 => v7.4.19): Extracting archive
+  - Installing twig/html-extra (v3.29.0): Extracting archive
+  - Upgrading symfony/yaml (v6.4.48 => v7.4.21): Extracting archive
+  - Upgrading symfony/validator (v6.4.44 => v7.4.21): Extracting archive
+  - Upgrading symfony/serializer (v6.4.44 => v7.4.21): Extracting archive
+  - Upgrading symfony/routing (v6.4.44 => v7.4.21): Extracting archive
+  - Upgrading symfony/http-foundation (v6.4.48 => v7.4.21): Extracting archive
+  - Upgrading symfony/psr-http-message-bridge (v6.4.32 => v7.4.21): Extracting archive
+  - Upgrading symfony/process (v6.4.44 => v7.4.21): Extracting archive
+  - Installing symfony/polyfill-php86 (v1.43.0): Extracting archive
+  - Installing symfony/polyfill-php85 (v1.43.0): Extracting archive
+  - Upgrading symfony/event-dispatcher (v6.4.44 => v7.4.17): Extracting archive
+  - Upgrading doctrine/lexer (2.1.1 => 3.0.3): Extracting archive
+  - Upgrading symfony/mailer (v6.4.44 => v7.4.19): Extracting archive
+  - Upgrading symfony/var-dumper (v6.4.44 => v7.4.21): Extracting archive
+  - Upgrading symfony/error-handler (v6.4.44 => v7.4.20): Extracting archive
+  - Upgrading symfony/http-kernel (v6.4.44 => v7.4.21): Extracting archive
+  - Upgrading symfony/filesystem (v6.4.44 => v7.4.21): Extracting archive
+  - Upgrading symfony/var-exporter (v6.4.44 => v7.4.18): Extracting archive
+  - Upgrading symfony/dependency-injection (v6.4.44 => v7.4.21): Extracting archive
+  - Upgrading sebastian/diff (4.0.6 => 6.0.2): Extracting archive
+  - Installing revolt/event-loop (v1.0.9): Extracting archive
+  - Installing php-tuf/composer-stager (v2.1.1): Extracting archive
+  - Downgrading justinrainbow/json-schema (6.13.1 => 6.8.2): Extracting archive
+  - Upgrading asm89/stack-cors (v2.3.0 => v2.4.0): Extracting archive
+  - Upgrading drupal/core (10.6.19 => 11.4.10): Extracting archive
+  - Upgrading symfony/lock (v6.4.48 => v7.4.21): Extracting archive
+  - Upgrading symfony/dom-crawler (v6.4.44 => v7.4.17): Extracting archive
+  - Upgrading symfony/css-selector (v6.4.45 => v7.4.18): Extracting archive
+  - Upgrading symfony/browser-kit (v6.4.48 => v7.4.21): Extracting archive
+  - Installing staabm/side-effects-detector (1.0.5): Extracting archive
+  - Upgrading sebastian/version (3.0.2 => 5.0.2): Extracting archive
+  - Upgrading sebastian/type (3.2.1 => 5.1.3): Extracting archive
+  - Upgrading sebastian/recursion-context (4.0.7 => 6.0.3): Extracting archive
+  - Upgrading sebastian/object-reflector (2.0.4 => 4.0.1): Extracting archive
+  - Upgrading sebastian/object-enumerator (4.0.4 => 6.0.1): Extracting archive
+  - Upgrading sebastian/global-state (5.0.8 => 7.0.2): Extracting archive
+  - Upgrading sebastian/exporter (4.0.9 => 6.3.2): Extracting archive
+  - Upgrading sebastian/environment (5.1.5 => 7.2.1): Extracting archive
+  - Upgrading sebastian/comparator (4.0.10 => 6.3.3): Extracting archive
+  - Upgrading sebastian/code-unit (1.0.8 => 3.0.3): Extracting archive
+  - Upgrading sebastian/cli-parser (1.0.2 => 3.0.2): Extracting archive
+  - Upgrading phpunit/php-timer (5.0.3 => 7.0.1): Extracting archive
+  - Upgrading phpunit/php-text-template (2.0.4 => 4.0.1): Extracting archive
+  - Upgrading phpunit/php-invoker (3.1.1 => 5.0.1): Extracting archive
+  - Upgrading phpunit/php-file-iterator (3.0.6 => 5.1.1): Extracting archive
+  - Upgrading sebastian/lines-of-code (1.0.4 => 3.0.1): Extracting archive
+  - Upgrading sebastian/complexity (2.0.3 => 4.0.1): Extracting archive
+  - Upgrading sebastian/code-unit-reverse-lookup (2.0.3 => 4.0.1): Extracting archive
+  - Upgrading phpunit/php-code-coverage (9.2.32 => 11.0.12): Extracting archive
+  - Upgrading phpunit/phpunit (9.6.38 => 11.5.57): Extracting archive
+  - Upgrading drupal/core-dev (10.6.19 => 11.4.10)
+  - Upgrading drupal/core-recommended (10.6.19 => 11.4.10)
+  - Upgrading consolidation/config (2.1.2 => 3.2.1): Extracting archive
+  - Upgrading consolidation/robo (4.0.6 => 5.1.1): Extracting archive
+  - Upgrading chi-teck/drupal-code-generator (3.6.1 => 4.2.0): Extracting archive
+  0/57 [>---------------------------]   0%
+ 25/57 [============>---------------]  43%
+ 43/57 [=====================>------]  75%
+ 56/57 [===========================>]  98%
+ 57/57 [============================] 100%
+    Cleaning: symfony/finder
+    Cleaning: symfony/console
+    Cleaning: symfony/yaml
+    Cleaning: symfony/validator
+    Cleaning: symfony/serializer
+    Cleaning: symfony/routing
+    Cleaning: symfony/http-foundation
+    Cleaning: symfony/psr-http-message-bridge
+    Cleaning: symfony/process
+    Cleaning: symfony/event-dispatcher
+    Cleaning: symfony/var-dumper
+    Cleaning: symfony/http-kernel
+    Cleaning: symfony/filesystem
+    Cleaning: symfony/dependency-injection
+    Cleaning: sebastian/diff
+    Cleaning: justinrainbow/json-schema
+    Cleaning: symfony/dom-crawler
+    Cleaning: symfony/css-selector
+    Cleaning: symfony/browser-kit
+    Cleaning: sebastian/recursion-context
+    Cleaning: sebastian/object-reflector
+    Cleaning: sebastian/object-enumerator
+    Cleaning: sebastian/global-state
+    Cleaning: sebastian/exporter
+    Cleaning: sebastian/environment
+    Cleaning: sebastian/comparator
+    Cleaning: phpunit/php-timer
+    Cleaning: sebastian/code-unit-reverse-lookup
+    Cleaning: phpunit/php-code-coverage
+    Cleaning: phpunit/phpunit
+1 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Package oomphinc/composer-installers-extender is abandoned, you should avoid using it. No replacement was suggested.
+Generating autoload files
+Hardening vendor directory with .htaccess file.
+97 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+Cleaning installed packages.
+No security vulnerability advisories found.Gathering patches for root package.
+Gathering patches for root package.
+Gathering patches for dependencies. This might take a minute.
+phpstan/extension-installer: Extensions installed
+Scaffolding files for drupal/core:
+  - Copy [web-root]/.htaccess from assets/scaffold/files/htaccess
+  - Copy [web-root]/index.php from assets/scaffold/files/index.php
+  - Copy [web-root]/robots.txt from assets/scaffold/files/robots.txt
+  - Copy [web-root]/update.php from assets/scaffold/files/update.php
+  - Copy [web-root]/.ht.router.php from assets/scaffold/files/ht.router.php
+  - Copy [web-root]/example.gitignore from assets/scaffold/files/example.gitignore
+  - Copy [project-root]/.gitattributes from assets/scaffold/files/gitattributes
+  - Copy [project-root]/recipes/README.txt from assets/scaffold/files/recipes.README.txt
+  - Copy [web-root]/sites/development.services.yml from assets/scaffold/files/development.services.yml
+  - Copy [web-root]/sites/default/default.services.yml from assets/scaffold/files/default.services.yml
+  - Copy [web-root]/sites/default/default.settings.php from assets/scaffold/files/default.settings.php

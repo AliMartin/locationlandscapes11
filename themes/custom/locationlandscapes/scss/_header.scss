@@ -1,0 +1,55 @@
+header {
+  position: relative;
+  z-index: 20;
+  
+  .header-container {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    background-color: $black;
+    color: $white;
+
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .header-container-left {
+      display: flex;
+      justify-content: start;
+    }
+    .header-container-right {
+      display: flex;
+      justify-content: end;
+    }
+  }
+
+  .menu-container {
+    // background-color: rgba(0,0,0,0.6);
+    background-color: $gray-dark;
+    color: $white;
+    padding: 15px 0;
+  }
+
+  .region-header-right {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+}
+
+body.menu-margin {
+  header {
+    margin-bottom: 40px;
+  }
+}
+
+
+// Set solid menu background colour for certain content types
+body.page-node-type-landing-page,
+body.page-node-type-staff {
+  header .menu-container {
+    background-color: $gray-dark;
+  }
+}

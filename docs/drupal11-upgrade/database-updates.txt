@@ -1,0 +1,204 @@
+ --------------- --------------- --------------- ------------------------------------------------------------------------------------- 
+  Module          Update ID       Type            Description                                                                          
+ --------------- --------------- --------------- ------------------------------------------------------------------------------------- 
+  system          11001           hook_update_n   11001 - Update length of menu_tree fields url and route_param_key from 255 to 2048.  
+  system          11100           hook_update_n   11100 - Invalidate container because the module handler has changed.                 
+  system          11102           hook_update_n   11102 - Equivalent update to 10400.                                                  
+  system          11200           hook_update_n   11200 - Add a [time] column to the {simpletest} table, if existing.                  
+  system          11201           hook_update_n   11201 - Add the [alias] field to the {router} table.                                 
+  system          11202           hook_update_n   11202 - Add an [exit_code] column to the {simpletest} table, if existing.            
+  system          11300           hook_update_n   11300 - Equivalent update to 10600.                                                  
+  system          11400           hook_update_n   11400 - Moved to search_update_11401().                                              
+  system          11401           hook_update_n   11401 - Moved to search_update_11402().                                              
+  help            11400           hook_update_n   11400 - Remove the help_search_items table.                                          
+  locale          11401           hook_update_n   11401 - Add a hash column to the {locale_file} table.                                
+  search          11400           hook_update_n   11400 - Install Search Node and Search and Node are installed.                       
+  search          11401           hook_update_n   11401 - Install Help Search module if the Search and Help modules are installed.     
+  search          11402           hook_update_n   11402 - Install Search node module if node is installed.                             
+  views           11201           hook_update_n   11201 - Removes the ui.show.advanced_column setting.                                 
+  block_content   remove_block_   post-update     Remove block_content_listing_empty from views.                                       
+                  content_listi                                                                                                        
+                  ng_empty                                                                                                             
+  block_content   remove_block_   post-update     Remove deprecated status and info keys from block_content blocks.                    
+                  content_statu                                                                                                        
+                  s_info_keys                                                                                                          
+  block           make_weight_i   post-update     Ensures that all block weights are integers.                                         
+                  nteger                                                                                                               
+  block           set_menu_bloc   post-update     Updates the `depth` setting to NULL if it is 0 in any menu blocks.                   
+                  k_depth_to_nu                                                                                                        
+                  ll_if_zero                                                                                                           
+  ckeditor5       list_type       post-update     No-op update that didn't update quite enough the first time.                         
+  ckeditor5       list_type_aga   post-update     Updates Text Editors using CKEditor 5 to native List "type" functionality.           
+                  in                                                                                                                   
+  field           clear_purge_b   post-update     Removes the purge_batch_size config.                                                 
+                  atch_size                                                                                                            
+  file            add_playsinli   post-update     Adds a value for the 'playsinline' setting of the 'file_video' formatter.            
+                  ne                              @deprecated in drupal:12.3.0 and is removed from drupal:13.0.0. This was    rolled   
+                                                  back due to a bug in the implementation and is now a no-op function    and is kept   
+                                                  only to prevent errors when updating.   @see                                         
+                                                  https:www.drupal.orgprojectdrupalissues3533291                                       
+  help            search_help_d   post-update     Moved to search_post_update_search_help_dependencies().                              
+                  ependencies                                                                                                          
+  locale          clear_sources   post-update     Clear locale source information.                                                     
+  locale          clear_transla   post-update     Removes the translation.path config.                                                 
+                  tion_path_con                                                                                                        
+                  fig                                                                                                                  
+  media           media_author_   post-update     Empty update function to clear the Views data cache.                                 
+                  views_filter_                                                                                                        
+                  update                                                                                                               
+  node            add_rebuild_p   post-update     Grants a new permission for rebuilding node access permissions.                      
+                  ermission_to_                                                                                                        
+                  roles                                                                                                                
+  node            create_promot   post-update     Creates base field override config for the promote base field on node types.         
+                  e_base_field_                                                                                                        
+                  overrides                                                                                                            
+  olivero         remove_shortc   post-update     Remove shortcut settings if shortcut module is not installed.                        
+                  ut_settings_i                                                                                                        
+                  f_not_install                                                                                                        
+                  ed                                                                                                                   
+  path_alias      update_path_a   post-update     Update the path_alias_revision indices.                                              
+                  lias_revision                                                                                                        
+                  _indexes                                                                                                             
+  search          block_with_em   post-update     Updates Search Blocks' without an explicit `page_id` from '' to NULL.                
+                  pty_page_id                                                                                                          
+  search          search_help_d   post-update     Update config entity dependencies to the Search Help module, if necessary.   @see    
+                  ependencies                     search_update_11402()                                                                
+  system          convert_empty   post-update     Updates entity_form_mode descriptions from empty string to null.                     
+                  _description_                                                                                                        
+                  entity_form_m                                                                                                        
+                  odes_to_null                                                                                                         
+  system          delete_rss_co   post-update     Delete obsolete system.rss configuration.                                            
+                  nfig                                                                                                                 
+  system          migrate_compr   post-update     Migrate to new compress setting.                                                     
+                  ess_setting                                                                                                          
+  system          remove_non_ad   post-update     Remove non-admin routes state key.                                                   
+                  min_routes_st                                                                                                        
+                  ate                                                                                                                  
+  system          remove_path_k   post-update     Remove path key in system.file.                                                      
+                  ey                                                                                                                   
+  system          remove_rss_cd   post-update     Rebuild the container to fix HTML in RSS feeds.                                      
+                  ata_subscribe                                                                                                        
+                  r                                                                                                                    
+  system          sdc_uninstall   post-update     Uninstall the sdc module if installed.                                               
+  update          clear_disk_ca   post-update     Removes the legacy 'Update Manager' disk cache.                                      
+                  che                                                                                                                  
+  update          fix_update_em   post-update     Remove empty email addresses from update.settings configuration.                     
+                  ails                                                                                                                 
+  views           add_date_defa   post-update     Clear cache to add new date default arguments.                                       
+                  ult_arguments                                                                                                        
+  views           block_items_p   post-update     Defaults `items_per_page` to NULL in Views blocks.                                   
+                  er_page                                                                                                              
+  views           counter_field   post-update     Clear cache to apply non-sortable counter field change.                              
+                  _not_sortable                                                                                                        
+  views           format_plural   post-update     Updates the format plural option for those views using aggregation.                  
+  views           table_css_cla   post-update     Adds a default table CSS class.                                                      
+                  ss                                                                                                                   
+  views           update_rememb   post-update     Clean-up empty remember_roles display settings for views filters.                    
+                  er_role_empty                                                                                                        
+ --------------- --------------- --------------- ------------------------------------------------------------------------------------- 
+
+
+ // Do you wish to run the specified pending updates?: yes.                                                             
+
+>  [notice] Update started: system_update_11001
+>  [notice] Update completed: system_update_11001
+>  [notice] Update started: system_update_11100
+>  [notice] Update completed: system_update_11100
+>  [notice] Update 11102 for the system module has been skipped because the equivalent change was already made in update 10400.
+>  [notice] Update completed: system_update_11102
+>  [notice] Update started: system_update_11200
+>  [notice] Update completed: system_update_11200
+>  [notice] Update started: system_update_11201
+>  [notice] Update completed: system_update_11201
+>  [notice] Update started: system_update_11202
+>  [notice] Update completed: system_update_11202
+>  [notice] Update 11300 for the system module has been skipped because the equivalent change was already made in update 10600.
+>  [notice] Update completed: system_update_11300
+>  [notice] Update started: system_update_11400
+>  [notice] Update completed: system_update_11400
+>  [notice] Update started: system_update_11401
+>  [notice] Update completed: system_update_11401
+>  [notice] Update started: views_update_11201
+>  [notice] Update completed: views_update_11201
+>  [notice] Update started: search_update_11400
+>  [notice] Update completed: search_update_11400
+>  [notice] Update started: search_update_11401
+>  [notice] Update completed: search_update_11401
+>  [notice] Update started: search_update_11402
+>  [notice] Update completed: search_update_11402
+>  [notice] Update started: locale_update_11401
+>  [notice] Update completed: locale_update_11401
+>  [notice] Update started: help_update_11400
+>  [notice] Update completed: help_update_11400
+>  [notice] Update started: block_content_post_update_remove_block_content_listing_empty
+>  [notice] Update completed: block_content_post_update_remove_block_content_listing_empty
+>  [notice] Update started: block_content_post_update_remove_block_content_status_info_keys
+>  [notice] Update completed: block_content_post_update_remove_block_content_status_info_keys
+>  [notice] Update started: block_post_update_make_weight_integer
+>  [notice] Update completed: block_post_update_make_weight_integer
+>  [notice] Update started: block_post_update_set_menu_block_depth_to_null_if_zero
+>  [notice] Update completed: block_post_update_set_menu_block_depth_to_null_if_zero
+>  [notice] Update started: ckeditor5_post_update_list_type
+>  [notice] Update completed: ckeditor5_post_update_list_type
+>  [notice] Update started: ckeditor5_post_update_list_type_again
+>  [notice] Update completed: ckeditor5_post_update_list_type_again
+>  [notice] Update started: field_post_update_clear_purge_batch_size
+>  [notice] Update completed: field_post_update_clear_purge_batch_size
+>  [notice] Update started: file_post_update_add_playsinline
+>  [notice] Update completed: file_post_update_add_playsinline
+>  [notice] Update started: help_post_update_search_help_dependencies
+>  [notice] Update completed: help_post_update_search_help_dependencies
+>  [notice] Update started: locale_post_update_clear_sources
+>  [notice] Update completed: locale_post_update_clear_sources
+>  [notice] Update started: locale_post_update_clear_translation_path_config
+>  [notice] The configuration locale.setting:translation.path is deprecated and is set to non-default value sites/default/files/translations. Support for setting this through configuration will be removed in Drupal 13.0.0 and must set in settings.php: $settings['locale_translation_path'] = 'sites/default/files/translations';, see https://www.drupal.org/node/3571594.
+>  [notice] Update completed: locale_post_update_clear_translation_path_config
+>  [notice] Update started: media_post_update_media_author_views_filter_update
+>  [notice] Update completed: media_post_update_media_author_views_filter_update
+>  [notice] Update started: node_post_update_add_rebuild_permission_to_roles
+>  [notice] Update completed: node_post_update_add_rebuild_permission_to_roles
+>  [notice] Update started: node_post_update_create_promote_base_field_overrides
+>  [notice] Update completed: node_post_update_create_promote_base_field_overrides
+>  [notice] Update started: olivero_post_update_remove_shortcut_settings_if_not_installed
+>  [notice] Update completed: olivero_post_update_remove_shortcut_settings_if_not_installed
+>  [notice] Update started: path_alias_post_update_update_path_alias_revision_indexes
+>  [notice] Update completed: path_alias_post_update_update_path_alias_revision_indexes
+>  [notice] Update started: search_post_update_block_with_empty_page_id
+>  [notice] Update completed: search_post_update_block_with_empty_page_id
+>  [notice] Update started: search_post_update_search_help_dependencies
+>  [notice] Update completed: search_post_update_search_help_dependencies
+>  [notice] Update started: system_post_update_convert_empty_description_entity_form_modes_to_null
+>  [notice] Update completed: system_post_update_convert_empty_description_entity_form_modes_to_null
+>  [notice] Update started: system_post_update_delete_rss_config
+>  [notice] Update completed: system_post_update_delete_rss_config
+>  [notice] Update started: system_post_update_migrate_compress_setting
+>  [notice] Update completed: system_post_update_migrate_compress_setting
+>  [notice] Update started: system_post_update_remove_non_admin_routes_state
+>  [notice] Update completed: system_post_update_remove_non_admin_routes_state
+>  [notice] Update started: system_post_update_remove_path_key
+>  [notice] Update completed: system_post_update_remove_path_key
+>  [notice] Update started: system_post_update_remove_rss_cdata_subscriber
+>  [notice] Update completed: system_post_update_remove_rss_cdata_subscriber
+>  [notice] Update started: system_post_update_sdc_uninstall
+>  [notice] Update completed: system_post_update_sdc_uninstall
+>  [notice] Update started: update_post_update_clear_disk_cache
+>  [notice] Update completed: update_post_update_clear_disk_cache
+>  [notice] Update started: update_post_update_fix_update_emails
+>  [notice] Update completed: update_post_update_fix_update_emails
+>  [notice] Update started: views_post_update_add_date_default_arguments
+>  [notice] Update completed: views_post_update_add_date_default_arguments
+>  [notice] Update started: views_post_update_block_items_per_page
+>  [notice] Update completed: views_post_update_block_items_per_page
+>  [notice] Update started: views_post_update_counter_field_not_sortable
+>  [notice] Update completed: views_post_update_counter_field_not_sortable
+>  [notice] Update started: views_post_update_format_plural
+>  [notice] Update completed: views_post_update_format_plural
+>  [notice] Update started: views_post_update_table_css_class
+>  [notice] Update completed: views_post_update_table_css_class
+>  [notice] Update started: views_post_update_update_remember_role_empty
+>  [notice] Update completed: views_post_update_update_remember_role_empty
+>  [notice] Updated default configuration to en-gb
+>  [notice] Updated default configuration to en-gb
+>  [notice] No configuration objects have been updated.
+>  [notice] No configuration objects have been updated.
+ [success] Finished performing updates.

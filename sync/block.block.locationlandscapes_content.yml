@@ -1,0 +1,22 @@
+uuid: 091b31e4-2a71-4c25-b4b7-34ff1bd8bb3f
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - locationlandscapes
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: locationlandscapes_content
+theme: locationlandscapes
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

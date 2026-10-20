@@ -1,0 +1,43 @@
+uuid: a8a168fc-e95e-4b63-89e0-44cb6cbafd0b
+langcode: en-gb
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.garden.body
+    - field.field.node.garden.field_designer
+    - field.field.node.garden.field_designer_website
+    - field.field.node.garden.field_hover_image
+    - field.field.node.garden.field_image
+    - field.field.node.garden.field_show_garden
+    - field.field.node.garden.field_video
+    - node.type.garden
+  module:
+    - text
+    - user
+id: node.garden.teaser
+targetEntityType: node
+bundle: garden
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_designer: true
+  field_designer_website: true
+  field_hover_image: true
+  field_image: true
+  field_show_garden: true
+  field_video: true
+  langcode: true

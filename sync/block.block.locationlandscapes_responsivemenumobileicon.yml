@@ -1,0 +1,24 @@
+uuid: e5bb330f-52f0-44c6-a5f6-826b6a989957
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - collapsiblock
+    - responsive_menu
+  theme:
+    - locationlandscapes
+third_party_settings:
+  collapsiblock:
+    collapse_action: 0
+id: locationlandscapes_responsivemenumobileicon
+theme: locationlandscapes
+region: header_right
+weight: -4
+provider: null
+plugin: responsive_menu_toggle
+settings:
+  id: responsive_menu_toggle
+  label: 'Responsive menu mobile icon'
+  label_display: '0'
+  provider: responsive_menu
+visibility: {  }

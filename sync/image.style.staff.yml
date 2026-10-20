@@ -1,0 +1,31 @@
+uuid: de88f477-49e2-4815-a0ae-cf26bd61227d
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - crop.type.staff
+  module:
+    - crop
+name: staff
+label: Staff
+effects:
+  a009090c-c464-4a1f-b2b3-22a93bbff2ed:
+    uuid: a009090c-c464-4a1f-b2b3-22a93bbff2ed
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: staff
+      automatic_crop_provider: null
+  efc32980-45b1-4579-a5ee-1727b52009ed:
+    uuid: efc32980-45b1-4579-a5ee-1727b52009ed
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 250
+      height: 250
+      anchor: center-center
+  ed17dc41-5a6c-4114-a2e3-89632dfec4f6:
+    uuid: ed17dc41-5a6c-4114-a2e3-89632dfec4f6
+    id: image_desaturate
+    weight: 3
+    data: {  }

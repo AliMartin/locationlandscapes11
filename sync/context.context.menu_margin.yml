@@ -1,0 +1,28 @@
+uuid: a5f65a7c-de5c-4160-84ac-efc08aa3bb65
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - node
+label: 'Menu margin'
+name: menu_margin
+group: null
+description: 'Adds spacing beneath the main menu.'
+requireAllConditions: false
+disabled: false
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 1541d6d8-53ef-46ab-bb2d-abca5e4b586a
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      staff: staff
+      testimonial: testimonial
+reactions:
+  body_class:
+    id: body_class
+    body_class: menu-margin
+    saved: false
+weight: 0

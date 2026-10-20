@@ -1,0 +1,34 @@
+uuid: 5aa3b24f-0146-49e2-893d-439c2625f240
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - node
+    - system
+label: 'Narrow body'
+name: narrow_body
+group: null
+description: 'Set if the body field of the page should always be narrow.'
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    negate: false
+    uuid: 76c9ba05-d432-4ddc-b40f-58bd3ede8a27
+    context_mapping: {  }
+    pages: "/about\r\n/careers\r\n/contact\r\n/privacy"
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: c127565f-acd9-4ef4-9692-5013f92e0e13
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      testimonial: testimonial
+reactions:
+  body_class:
+    id: body_class
+    body_class: narrow-body
+    saved: false
+weight: 0

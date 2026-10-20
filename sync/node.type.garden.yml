@@ -1,0 +1,17 @@
+uuid: 9d774374-c064-4a46-b899-dcc244119977
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Garden
+type: garden
+description: 'Add a <em>garden</em>, including a <em>show garden</em> to the website.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

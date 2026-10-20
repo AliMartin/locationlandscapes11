@@ -1,0 +1,23 @@
+uuid: 3a318bc3-3723-494e-88bf-c2e3aa95a1f2
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_designer_website
+    - node.type.garden
+  module:
+    - link
+id: node.garden.field_designer_website
+field_name: field_designer_website
+entity_type: node
+bundle: garden
+label: 'Designer website'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

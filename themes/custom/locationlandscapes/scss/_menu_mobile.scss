@@ -1,0 +1,82 @@
+#block-locationlandscapes-responsivemenumobileicon {
+  a.responsive-menu-toggle-icon {
+    display: flex;
+    height: 36px;
+    width: 36px;
+    border-radius: 20px;
+    background-color: $green;
+
+    span.label {
+      display: none;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $teal;
+    }
+  }
+
+  .responsive-menu-toggle-icon::before,
+  .responsive-menu-toggle-icon::after,
+  .responsive-menu-toggle-icon span.icon {
+    height: 1px;
+    left: 8px;
+  }
+
+  .responsive-menu-toggle-icon::before   {top: 11px;}
+  .responsive-menu-toggle-icon span.icon {top: 17px;}
+  .responsive-menu-toggle-icon::after    {top: 23px;}
+
+
+}
+
+.mm-wrapper_opening #block-locationlandscapes-responsivemenumobileicon {
+  .responsive-menu-toggle-icon::before   {top: 17px;}
+  .responsive-menu-toggle-icon::after    {top: 17px;}  
+}
+
+
+.mm-menu_theme-dark {
+  background-color: $gray-dark;
+  --mm-color-background: $gray-dark;
+  color: $white;
+
+  .mm-panels {
+    .mm-navbar:before {
+      content: '';
+      background: url("/themes/custom/locationlandscapes/logo.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+      display: block;
+      position: relative;
+      left: 20%;
+      width: 60%;
+      height: 100px;
+    } 
+
+    .mm-navbar a {
+      display: none;
+    }
+  }
+
+  ul.mm-listview {
+    li.mm-listitem {
+      color: $white;
+      --mm-color-text: $white;
+      text-align: center;
+    }
+    li.mm-listitem::after {
+      display: none;
+    }
+    .mm-listitem__text {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .mm-listitem_selected > .mm-listitem__text {
+      background: $green;
+    }
+  }
+}
+
+

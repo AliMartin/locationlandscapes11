@@ -1,0 +1,16 @@
+uuid: 1110f6e9-c330-45fe-99fd-ac7157dd2e4c
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - media
+  enforced:
+    module:
+      - media_library
+_core:
+  default_config_hash: Tdhz-aDHfDoV1Ul9umtItxGTrjkFzoNAkDw8FWXjYA0
+id: media.media_library
+label: 'Media library'
+description: null
+targetEntityType: media
+cache: true

@@ -1,0 +1,102 @@
+uuid: b69dc0d3-5cf1-40ba-85f7-a9d5a24a1391
+langcode: en-gb
+status: true
+dependencies: {  }
+id: counties
+label: Counties
+category: Geographic
+likert: false
+options: |-
+  Buckinghamshire: Buckinghamshire
+  Cambridgeshire: Cambridgeshire
+  Cheshire: Cheshire
+  Cleveland: Cleveland
+  Cornwall: Cornwall
+  Cumbria: Cumbria
+  Derbyshire: Derbyshire
+  Devon: Devon
+  Dorset: Dorset
+  Durham: Durham
+  'East Sussex': 'East Sussex'
+  Essex: Essex
+  Gloucestershire: Gloucestershire
+  'Greater London': 'Greater London'
+  'Greater Manchester': 'Greater Manchester'
+  Hampshire: Hampshire
+  Hertfordshire: Hertfordshire
+  Kent: Kent
+  Lancashire: Lancashire
+  Leicestershire: Leicestershire
+  Lincolnshire: Lincolnshire
+  Merseyside: Merseyside
+  Norfolk: Norfolk
+  'North Yorkshire': 'North Yorkshire'
+  Northamptonshire: Northamptonshire
+  Northumberland: Northumberland
+  Nottinghamshire: Nottinghamshire
+  Oxfordshire: Oxfordshire
+  Shropshire: Shropshire
+  Somerset: Somerset
+  'South Yorkshire': 'South Yorkshire'
+  Staffordshire: Staffordshire
+  Suffolk: Suffolk
+  Surrey: Surrey
+  'Tyne and Wear': 'Tyne and Wear'
+  Warwickshire: Warwickshire
+  'West Berkshire': 'West Berkshire'
+  'West Midlands': 'West Midlands'
+  'West Sussex': 'West Sussex'
+  'West Yorkshire': 'West Yorkshire'
+  Wiltshire: Wiltshire
+  Worcestershire: Worcestershire
+  Flintshire: Flintshire
+  Glamorgan: Glamorgan
+  Merionethshire: Merionethshire
+  Monmouthshire: Monmouthshire
+  Montgomeryshire: Montgomeryshire
+  Pembrokeshire: Pembrokeshire
+  Radnorshire: Radnorshire
+  Anglesey: Anglesey
+  Breconshire: Breconshire
+  Caernarvonshire: Caernarvonshire
+  Cardiganshire: Cardiganshire
+  Carmarthenshire: Carmarthenshire
+  Denbighshire: Denbighshire
+  'Aberdeen City': 'Aberdeen City'
+  Aberdeenshire: Aberdeenshire
+  Angus: Angus
+  'Argyll and Bute': 'Argyll and Bute'
+  'City of Edinburgh': 'City of Edinburgh'
+  Clackmannanshire: Clackmannanshire
+  'Dumfries and Galloway': 'Dumfries and Galloway'
+  'Dundee City': 'Dundee City'
+  'East Ayrshire': 'East Ayrshire'
+  'East Dunbartonshire': 'East Dunbartonshire'
+  'East Lothian': 'East Lothian'
+  'East Renfrewshire': 'East Renfrewshire'
+  'Eilean Siar': 'Eilean Siar'
+  Falkirk: Falkirk
+  Fife: Fife
+  'Glasgow City': 'Glasgow City'
+  Highland: Highland
+  Inverclyde: Inverclyde
+  Midlothian: Midlothian
+  Moray: Moray
+  'North Ayrshire': 'North Ayrshire'
+  'North Lanarkshire': 'North Lanarkshire'
+  'Orkney Islands': 'Orkney Islands'
+  'Perth and Kinross': 'Perth and Kinross'
+  Renfrewshire: Renfrewshire
+  'Scottish Borders': 'Scottish Borders'
+  'Shetland Islands': 'Shetland Islands'
+  'South Ayrshire': 'South Ayrshire'
+  'South Lanarkshire': 'South Lanarkshire'
+  Stirling: Stirling
+  'West Dunbartonshire': 'West Dunbartonshire'
+  'West Lothian': 'West Lothian'
+  Antrim: Antrim
+  Armagh: Armagh
+  Down: Down
+  Fermanagh: Fermanagh
+  'Derry and Londonderry': 'Derry and Londonderry'
+  Tyrone: Tyrone

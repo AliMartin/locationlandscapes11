@@ -1,0 +1,23 @@
+uuid: e66c3b67-971e-4fad-834c-88bc3c081a36
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - node.type.press
+  module:
+    - node
+id: press
+label: Press
+type: 'canonical_entities:node'
+pattern: '/press/[node:title]'
+selection_criteria:
+  b7f98f50-ee2f-43fe-9041-3bd26a4d1136:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      press: press
+selection_logic: and
+weight: -5
+relationships: {  }

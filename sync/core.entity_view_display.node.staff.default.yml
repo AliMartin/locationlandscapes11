@@ -1,0 +1,52 @@
+uuid: 13d7182a-c7fe-4681-a0b1-858dbca4b622
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.node.staff.body
+    - field.field.node.staff.field_position
+    - field.field.node.staff.field_staff_photo
+    - image.style.staff
+    - node.type.staff
+  module:
+    - image
+    - text
+    - user
+id: node.staff.default
+targetEntityType: node
+bundle: staff
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_position:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_staff_photo:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: staff
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  langcode: true

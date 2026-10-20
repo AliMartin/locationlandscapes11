@@ -1,0 +1,17 @@
+uuid: c89fe66d-1d0e-41eb-807e-711f556b6d12
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Staff
+type: staff
+description: 'Add a member of <em>staff</em> to the website.'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

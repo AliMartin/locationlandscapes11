@@ -1,0 +1,24 @@
+uuid: fad85900-8972-4ec1-9e8a-555c5ed47124
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.front
+  module:
+    - text
+id: node.front.body
+field_name: body
+entity_type: node
+bundle: front
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

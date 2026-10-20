@@ -1,0 +1,32 @@
+uuid: 26457f9a-6b88-4130-a0f8-e3f093b09fb8
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - blazy
+    - insert_view
+name: Code
+format: code
+weight: -8
+filters:
+  blazy_filter:
+    id: blazy_filter
+    provider: blazy
+    status: false
+    weight: 3
+    settings:
+      filter_tags:
+        img: img
+        iframe: iframe
+      media_switch: ''
+      box_style: ''
+      box_media_style: ''
+      hybrid_style: ''
+      use_data_uri: '0'
+      box_caption: ''
+  insert_view:
+    id: insert_view
+    provider: insert_view
+    status: true
+    weight: 0
+    settings: {  }

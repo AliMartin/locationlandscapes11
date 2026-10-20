@@ -1,0 +1,154 @@
+.path-webform,
+.page-node-type-webform {
+  nav.tabs-primary {
+    margin: 1rem auto 2rem;
+
+    ul {
+      justify-content: center;
+    }
+  }
+}
+
+
+.webform-submission-form {
+
+  // We will initially set a wide container so that elements like tables have room to breathe
+  // But then narrow it down for basic elements like text and selects.
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+
+  >div,
+  >fieldset,
+  .webform-section,
+  .webform-section .webform-section-wrapper>div {
+    // So narrow the default width for basic webform elements
+    max-width: 550px;
+    margin: 0 auto 2rem auto;
+  }
+
+  >div:has(.form-type-webform-custom-composite),
+  >div.form-type-webform-likert,
+  >div.webform-progress {
+    // And then let tables and other wide elements stretch out again
+    max-width: inherit;
+  }
+
+  > .form-wrapper > fieldset {
+    margin: 0 0 3rem 0;
+  }
+
+  .form-type-textfield label,
+  .form-type-number label,
+  .form-type-email label,
+  .form-type-select label,
+  .form-type-tel label,
+  .form-item-url label,
+  .form-item-likert label,
+  .form-item-custom-composite label,
+  .form-type-date label,
+  .form-item-date-time label,
+  .form-type-textarea label,
+  .form-item-file label,
+  .form-item-image-file label,
+  .form-composite > legend, 
+  .label {
+    font-weight: $font-weight-bold;
+    margin-bottom: 0.25rem;
+  }
+
+  fieldset.webform-type-fieldset > legend > .fieldset-legend {
+    font-size: x-large;
+    font-weight: $font-weight-bold;
+    margin-bottom: 0.25rem;    
+  }
+
+  .error {
+    color: red;
+    padding-top: 0.25rem;
+  }
+}
+
+
+// Defaults
+.form-control {
+  color: $black;
+  background-color: #ffffff;
+  border: 1px solid $green;
+  border-radius: 30px;
+  box-shadow: inherit;
+  margin-bottom: 0.25rem;
+  transition: inherit;
+  font-size: 14px;
+  line-height: 14px;
+  height: 34px;
+  font-size: $font-size-base;
+  padding: 20px 25px;
+
+  &:focus,
+  &:active {
+    background-color: #ffffff;
+    border: 1px solid $purple;
+    box-shadow: inherit;
+  }
+}
+
+textarea.form-control {
+  height: inherit;
+}
+
+.form-item,
+.form-actions {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.form-actions {
+  text-align: center;
+}
+
+.form-composite > .fieldset-wrapper > .description,
+.form-item .description {
+  font-size: 0.85em;
+  margin: 0.5rem 0;
+}
+
+
+
+// Checkboxes and radio buttons
+input.form-check-input {
+  &:checked {
+    background-color: $teal;
+    border-color: $teal;
+  }
+
+  &:focus {
+    box-shadow: inherit;
+  }
+}
+
+input.form-radio {
+  accent-color: $teal;
+}
+
+.form-type-radio,
+.form-type-checkbox {
+  label {
+    font-weight: $font-weight-normal;
+  }
+
+  .description {
+    margin-left: 0;
+  }
+}
+
+.form-checkboxes .form-item,
+.form-radios .form-item {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.form-radios,
+.form-checkboxes {
+  margin-bottom: 0.5rem;
+}

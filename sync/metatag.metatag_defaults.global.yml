@@ -1,0 +1,13 @@
+uuid: 9e8be80d-919a-4c14-8315-155a48286849
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url]'
+  description: 'Location Landscapes are specialists in garden maintenance and soft landscaping for domestic gardens in Hampshire and the Home Counties.'
+  keywords: 'garden,design,landscape,maintenance,Hampshire,London,professional'
+  title: '[current-page:title] | [site:name]'

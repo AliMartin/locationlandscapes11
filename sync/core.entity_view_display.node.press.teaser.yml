@@ -1,0 +1,37 @@
+uuid: 11fb81da-e634-4eee-981a-97a3ea67fc52
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.press.body
+    - field.field.node.press.field_hover_image
+    - field.field.node.press.field_pdf
+    - field.field.node.press.field_publication_date
+    - node.type.press
+  module:
+    - text
+    - user
+id: node.press.teaser
+targetEntityType: node
+bundle: press
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_hover_image: true
+  field_pdf: true
+  field_publication_date: true
+  langcode: true

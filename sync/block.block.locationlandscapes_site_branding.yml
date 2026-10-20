@@ -1,0 +1,29 @@
+uuid: 1bbec73c-7723-4978-b985-2b6ae2648e37
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - collapsiblock
+    - system
+  theme:
+    - locationlandscapes
+third_party_settings:
+  collapsiblock:
+    collapse_action: 0
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: locationlandscapes_site_branding
+theme: locationlandscapes
+region: header_left
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

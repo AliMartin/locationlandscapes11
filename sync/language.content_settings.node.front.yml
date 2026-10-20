@@ -1,0 +1,11 @@
+uuid: 71da5ba5-f430-42af-a829-240ab8b1c0f8
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - node.type.front
+id: node.front
+target_entity_type_id: node
+target_bundle: front
+default_langcode: site_default
+language_alterable: false

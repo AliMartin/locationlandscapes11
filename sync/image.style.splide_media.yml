@@ -1,0 +1,20 @@
+uuid: fbdaa5bf-be63-4ddf-9934-e1d72103164e
+langcode: en-gb
+status: true
+dependencies:
+  enforced:
+    module:
+      - splide
+_core:
+  default_config_hash: z4PnjPISXcMPUkdthI8edEjwfNEyBXmEkSlmGlVYe8Q
+name: splide_media
+label: 'Splide media'
+effects:
+  4b434ce0-90cc-44c3-9423-35d7cccc7d93:
+    uuid: 4b434ce0-90cc-44c3-9423-35d7cccc7d93
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 853
+      height: 480
+      anchor: center-center

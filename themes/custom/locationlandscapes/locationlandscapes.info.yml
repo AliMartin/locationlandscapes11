@@ -1,0 +1,26 @@
+name: Location Landscapes
+type: theme
+description: 'Location Landscapes subtheme based on Bootstrap 5 theme.'
+core_version_requirement: '^10.3 || ^11'
+'base theme': bootstrap5
+libraries:
+  - locationlandscapes/global-styling
+ckeditor_stylesheets:
+  - css/style.css
+ckeditor5-stylesheets:
+  - css/ck5style.css
+regions:
+  header_left: 'Header left'
+  header_right: 'Header right'
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  breadcrumb: Breadcrumbs
+  hero: 'Hero image'
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  upper_footer: 'Upper footer'
+  lower_footer: 'Lower footer'
+libraries-override:
+  bootstrap5/global-styling: false

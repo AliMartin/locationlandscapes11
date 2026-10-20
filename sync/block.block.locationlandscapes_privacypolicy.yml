@@ -1,0 +1,27 @@
+uuid: bcb036a4-01f6-438d-82e7-43e0ad503ddd
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2b7e72e5-1ddf-497b-979d-05691f37ec49'
+  module:
+    - block_content
+    - collapsiblock
+  theme:
+    - locationlandscapes
+third_party_settings:
+  collapsiblock:
+    collapse_action: 1
+id: locationlandscapes_privacypolicy
+theme: locationlandscapes
+region: lower_footer
+weight: -5
+provider: null
+plugin: 'block_content:2b7e72e5-1ddf-497b-979d-05691f37ec49'
+settings:
+  id: 'block_content:2b7e72e5-1ddf-497b-979d-05691f37ec49'
+  label: 'Privacy policy'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

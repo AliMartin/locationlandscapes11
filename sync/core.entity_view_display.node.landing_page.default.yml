@@ -1,0 +1,56 @@
+uuid: 88b43978-b318-4fca-8cf9-613f644d0fe1
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_background_image
+    - field.field.node.landing_page.field_teaser
+    - field.field.node.landing_page.field_webform
+    - node.type.landing_page
+  module:
+    - background_image_formatter
+    - text
+    - user
+    - webform
+id: node.landing_page.default
+targetEntityType: node
+bundle: landing_page
+mode: default
+content:
+  body:
+    type: text_default
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_background_image:
+    type: background_media_image_formatter
+    label: visually_hidden
+    settings:
+      image_style: ''
+      background_image_output_type: css
+      background_image_selector: .hero-image
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_teaser:
+    type: basic_string
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_webform:
+    type: webform_entity_reference_entity_view
+    label: visually_hidden
+    settings:
+      source_entity: true
+      lazy: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  langcode: true
+  links: true

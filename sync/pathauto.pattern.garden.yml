@@ -1,0 +1,23 @@
+uuid: 29e25255-c850-4aa4-9a46-f32533f76a20
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - node.type.garden
+  module:
+    - node
+id: garden
+label: Garden
+type: 'canonical_entities:node'
+pattern: '/garden/[node:title]'
+selection_criteria:
+  e5343080-8f46-4d3f-92cc-dad16a6cc61b:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      garden: garden
+selection_logic: and
+weight: -5
+relationships: {  }

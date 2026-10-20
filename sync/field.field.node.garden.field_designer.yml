@@ -1,0 +1,19 @@
+uuid: b9574512-fb61-43f1-b5f7-ca9a112a40ea
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_designer
+    - node.type.garden
+id: node.garden.field_designer
+field_name: field_designer
+entity_type: node
+bundle: garden
+label: Designer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

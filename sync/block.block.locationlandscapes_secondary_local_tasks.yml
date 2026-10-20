@@ -1,0 +1,22 @@
+uuid: c864303d-2ebc-40a8-a77a-c6936ebf977e
+langcode: en-gb
+status: true
+dependencies:
+  theme:
+    - locationlandscapes
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: locationlandscapes_secondary_local_tasks
+theme: locationlandscapes
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

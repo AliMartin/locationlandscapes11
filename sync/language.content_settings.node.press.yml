@@ -1,0 +1,11 @@
+uuid: 48f99c70-15d4-450a-bc6e-a7ea425d6ea9
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - node.type.press
+id: node.press
+target_entity_type_id: node
+target_bundle: press
+default_langcode: site_default
+language_alterable: false

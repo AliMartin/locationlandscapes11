@@ -1,0 +1,30 @@
+uuid: 9af7c21e-ab8d-40aa-ad2e-94b195036e56
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - collapsiblock
+    - system
+  theme:
+    - locationlandscapes
+third_party_settings:
+  collapsiblock:
+    collapse_action: 1
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: locationlandscapes_page_title
+theme: locationlandscapes
+region: content
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

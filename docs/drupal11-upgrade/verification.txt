@@ -1,0 +1,21 @@
+PASS Drupal 11 is running
+PASS Tour is uninstalled
+PASS Removed core extension absent: tour
+PASS Removed core extension absent: book
+PASS Removed core extension absent: forum
+PASS Removed core extension absent: statistics
+PASS Removed core extension absent: tracker
+PASS Removed core extension absent: action
+PASS Removed core extension absent: help_topics
+PASS Removed core extension absent: sdc
+PASS Custom theme supports installed Drupal core
+PASS All 5 custom Twig templates parse
+PASS Staff edit form renders the Image Widget Crop widget
+PASS Responsive Menu settings form renders
+PASS Menu behaviour setting preserved: horizontal_menu
+PASS Menu behaviour setting preserved: off_canvas_menus
+PASS Menu behaviour setting preserved: off_canvas_position
+PASS Menu behaviour setting preserved: horizontal_media_query
+PASS Menu behaviour setting preserved: wrapper_theme
+PASS Menu behaviour setting preserved: use_bootstrap
+PASS Menu config matches the stable branch schema

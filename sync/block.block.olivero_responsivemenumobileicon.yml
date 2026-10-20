@@ -1,0 +1,20 @@
+uuid: a3fc17d1-893f-4606-8cf9-eaf8d4b907b0
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - olivero
+id: olivero_responsivemenumobileicon
+theme: olivero
+region: primary_menu
+weight: 0
+provider: null
+plugin: responsive_menu_toggle
+settings:
+  id: responsive_menu_toggle
+  label: 'Responsive menu mobile icon'
+  label_display: visible
+  provider: responsive_menu
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 85130dc7-a1de-437e-80fe-08f88034f5ed
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - node.type.staff
+  module:
+    - node
+id: staff
+label: Staff
+type: 'canonical_entities:node'
+pattern: '/team/[node:title]'
+selection_criteria:
+  fdfd0806-a6f6-4e2d-8230-e989918686d1:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      staff: staff
+selection_logic: and
+weight: -5
+relationships: {  }

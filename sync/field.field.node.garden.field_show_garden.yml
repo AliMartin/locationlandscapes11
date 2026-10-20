@@ -1,0 +1,21 @@
+uuid: 1e6b3642-9eae-4690-b9c2-52848625a6fc
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_garden
+    - node.type.garden
+id: node.garden.field_show_garden
+field_name: field_show_garden
+entity_type: node
+bundle: garden
+label: 'Show garden'
+description: 'Tick this box if this is a show garden.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

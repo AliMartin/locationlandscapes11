@@ -1,0 +1,66 @@
+body.page-node-type-front {
+
+  overflow: inherit;
+  overflow-x: inherit;
+  background-color: inherit;
+
+  header .menu-container {
+    background-color: rgba(0,0,0,0.6);
+  }
+
+  .menu-container #block-locationlandscapes-main-menu .dropdown-menu {
+    background-color: rgba(0,0,0,0.6);
+  }
+
+  .main-content > div > .region-content {
+    padding-top: 70vh;
+  }
+
+  .slide__content > .media {
+    padding-bottom: inherit !important;
+    background-position: center;
+  }
+
+  #block-locationlandscapes-views-block-front-block-1 {
+    position: relative;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.6);
+    color: $white;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    border-radius: $border-radius;
+  }
+
+  #upper-footer,
+  footer {
+    position: relative;
+    z-index: 10;
+  }
+}
+
+
+@media only screen and (max-width : 767px) {
+  body.page-node-type-front {
+    #block-locationlandscapes-views-block-front-block-1 {
+      font-size: 0.9em;
+    }
+    #block-locationlandscapes-views-block-front-block-1 h1 {
+      font-size: 2.0em;
+    }
+  }
+}
+
+
+@media only screen and (max-width : 499px) {
+  body.page-node-type-front {
+    #block-locationlandscapes-views-block-front-block-1 {
+      font-size: 0.8em;
+    }
+    #block-locationlandscapes-views-block-front-block-1 h1 {
+      font-size: 1.6em;
+    }
+  }
+}

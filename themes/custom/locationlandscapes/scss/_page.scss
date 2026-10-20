@@ -1,0 +1,377 @@
+h1 {
+  text-align: center;
+}
+
+
+// Landing pages
+body.page-node-type-landing-page {
+
+  .hero-image {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    // height: 490px;
+    height: 40vh;
+    margin-bottom: 40px;
+
+    h1 {
+      background-color: rgba(0,0,0,0.6);
+      color: $white;
+      position: absolute;
+      bottom: 0;
+      margin: 0;
+      padding: 0.5rem 0;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .main-content {
+  
+    .field--name-field-teaser,
+    .view-staff,
+    .view-testimonials {
+      max-width: 730px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: justify;
+    }
+
+    h1 {
+      display: none;
+    }
+  }
+}
+
+body.narrow-body .main-content {
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+
+
+// Teaser
+.field--name-field-teaser {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width : 767px) {
+  .field--name-field-teaser {
+    font-size: 22px;
+    line-height: 28px;
+  } 
+}
+
+
+
+// Gardens
+#title-wrapper {
+  position: relative;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.6);
+  color: $white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#block-locationlandscapes-primary-local-tasks {
+  position: relative;
+  z-index: 10;
+}
+
+#block-locationlandscapes-content {
+  position: relative;
+  z-index: 5;
+}
+
+#block-locationlandscapes-views-block-garden-description-block-1 {
+  z-index: 10;
+  background-color: rgba(0,0,0,0.6);
+  color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  width: 700px;
+  margin-left: -350px;
+  padding: 20px 30px;
+  border-radius: $border-radius $border-radius 0 0;
+
+  h2 {
+    color: $white;
+    font-size: 28px;
+    line-height: 28px;
+    margin: 0;
+  }
+
+  .view-garden-description {
+    margin-top: 20px;
+
+    .views-field-field-designer,
+    .views-field-field-designer-website,
+    .views-field-field-video {
+      font-size: smaller;
+      font-weight: $font-weight-bold;
+
+      > .field-content {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+
+    span.icon {
+      display: block;
+      width: 30px;
+    }
+
+    span.value {
+      display: block;
+    }
+
+    .views-field-field-designer-website a {
+      text-decoration: none;
+    }
+
+    .views-field-field-video .value {
+      color: $green;
+      &:hover,
+      &:focus,
+      &:active {
+        color: $teal;
+      }
+    }
+
+    .views-field-body {
+      margin-top: 20px;
+    }
+  }
+
+  .collapsiblockTitle           button        {background: url(/themes/custom/locationlandscapes/images/chevron-down-white.png) no-repeat 100%;}
+  .collapsiblockTitle           button:hover  {background: url(/themes/custom/locationlandscapes/images/chevron-down-green.png) no-repeat 100%;}
+  .collapsiblockTitleCollapsed  button        {background: url(/themes/custom/locationlandscapes/images/chevron-left-white.png) no-repeat 100%;}
+  .collapsiblockTitleCollapsed  button:hover  {background: url(/themes/custom/locationlandscapes/images/chevron-left-green.png) no-repeat 100%;}
+
+}
+
+@media only screen and (max-width : 767px) {
+  #block-locationlandscapes-views-block-garden-description-block-1 {
+    left: 0;
+    width: 100%;
+    margin-left: inherit;
+    border-radius: 0;
+  }
+}
+
+
+.page-node-type-garden {
+  .slide__content > .media {
+    padding-bottom: inherit !important;
+    background-position: center;
+  }
+}
+
+
+// Slick carousel arrows
+.slick-arrow::before,
+.slick-arrow::after {
+  color: $white;
+  opacity: 1;
+}
+
+.slick-arrow:hover::before,
+.slick-arrow:hover::after {
+  color: $green;
+  opacity: 1;
+}
+
+
+
+// Staff listing
+.view-staff {
+  .views-field-field-staff-photo img {
+    border-radius: 50%;
+    padding: 7px;
+    border: 7px solid $purple;
+  }
+}
+
+
+
+// Staff page
+.page-node-type-staff {
+
+  header .menu-container {
+    margin-bottom: 3rem;
+  }
+
+  main > .container {
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-bottom: 6rem;
+  }
+
+  #block-locationlandscapes-page-title,
+  .field--name-field-staff-photo,
+  .field--name-field-position {
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  .field--name-field-staff-photo img {
+    border-radius: 50%;
+    padding: 7px;
+    border: 7px solid $purple;
+    margin-bottom: 0.5rem;
+  }
+
+  .field--name-field-position {
+    margin-bottom: 0.5rem;
+    font-size: x-large;
+  }
+}
+
+
+
+// Press
+body.page-node-type-press {
+
+  #title-wrapper {
+    margin-bottom: 40px;
+  }
+
+  .main-content {
+  
+    h1 {
+      display: none;
+    }
+
+    .field--name-field-publication-date {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .field--name-field-pdf {
+      margin-bottom: 40px;
+      iframe {
+        height: 80vh;
+      }
+    }
+    
+    .field--name-body {
+      max-width: 730px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: justify;
+    }
+  }
+}
+
+
+
+// Curator feed
+
+#curator-feed-default-feed-layout {
+
+  margin-top: 40px;
+
+  .crt-post {
+    border-radius: $border-radius;
+  }
+
+  .crt-post-border {
+    // border: inherit;
+  }
+  .crt-social-icon svg {
+    // color: $white;
+  }
+  .crt-post-fullname a {
+    // color: $white;
+  }
+  .crt-post-text {
+    a {
+      color: $green;
+      text-decoration: underline;
+      &:hover {
+        color: $teal;
+        text-decoration: underline;
+      }
+    }
+  }
+  .crt-post-footer {
+    background-color: $green;
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      opacity: 1;
+    }
+  }
+  .crt-post-share {
+    // display: none;
+  }
+
+  .crt-load-more-container {
+    margin-top: 20px;
+    button {
+      border: none;
+      background-color: $green;
+      color: $white;
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 16px;
+      padding: 15px 30px;
+      border-radius: 30px;
+      text-transform: uppercase;
+  
+      &:hover,
+      &:focus {
+        background-color: $teal;
+      }
+    }
+  }
+
+  a.crt-logo {
+    text-transform: uppercase;
+    font-size: 0.8em;
+  }
+
+}
+
+
+
+// Contact page
+#contact-panel {
+  text-align: center;
+
+  h4 {
+    margin-top: 40px;
+  }
+}
+
+
+
+// Bali logo on About page
+#bali-footer {
+
+  margin-top: 40px;
+
+  .bali-logo {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    img {
+      max-width: 140px;
+    }
+  }
+  .bali-text {
+    font-size: 13px;
+  }
+}

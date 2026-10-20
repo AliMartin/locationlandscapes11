@@ -1,0 +1,30 @@
+uuid: 0970efec-01d1-4860-8c65-a7343ad26733
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.webform_default
+  module:
+    - eu_cookie_compliance
+    - file
+    - filter
+    - media
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access shortcuts'
+  - 'delete own files'
+  - 'display eu cookie compliance popup'
+  - 'search content'
+  - 'use text format basic_html'
+  - 'use text format webform_default'
+  - 'view media'

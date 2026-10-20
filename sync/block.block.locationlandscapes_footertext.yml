@@ -1,0 +1,27 @@
+uuid: 1d6fb714-4488-4375-abb5-30a2e5193239
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:48cd9a1d-6282-4ec6-b18d-7c92d9fe761d'
+  module:
+    - block_content
+    - collapsiblock
+  theme:
+    - locationlandscapes
+third_party_settings:
+  collapsiblock:
+    collapse_action: 1
+id: locationlandscapes_footertext
+theme: locationlandscapes
+region: lower_footer
+weight: -7
+provider: null
+plugin: 'block_content:48cd9a1d-6282-4ec6-b18d-7c92d9fe761d'
+settings:
+  id: 'block_content:48cd9a1d-6282-4ec6-b18d-7c92d9fe761d'
+  label: 'Footer text'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

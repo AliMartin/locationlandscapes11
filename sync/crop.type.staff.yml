@@ -1,0 +1,12 @@
+uuid: 2e514a68-f325-431c-a734-5f5521d89735
+langcode: en-gb
+status: true
+dependencies: {  }
+label: Staff
+id: staff
+description: 'Create a staff head shot for their biography.'
+aspect_ratio: '1:1'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

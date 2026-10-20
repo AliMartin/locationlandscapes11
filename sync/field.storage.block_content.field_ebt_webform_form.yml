@@ -1,0 +1,22 @@
+uuid: 5a13e197-d5f5-4880-9a80-93e690bb29bc
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - block_content
+    - webform
+_core:
+  default_config_hash: K4nKI1yvxZ4s40vKrpuBiz09L15lK0ygK9etUTwYVRw
+id: block_content.field_ebt_webform_form
+field_name: field_ebt_webform_form
+entity_type: block_content
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

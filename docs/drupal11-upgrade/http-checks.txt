@@ -1,0 +1,10 @@
+200 https://locationlandscapes11.ddev.site/
+200 https://locationlandscapes11.ddev.site/about
+200 https://locationlandscapes11.ddev.site/gardens
+200 https://locationlandscapes11.ddev.site/garden/soft-landscaping-west-sussex
+200 https://locationlandscapes11.ddev.site/show-gardens
+200 https://locationlandscapes11.ddev.site/team
+200 https://locationlandscapes11.ddev.site/press
+200 https://locationlandscapes11.ddev.site/contact
+200 https://locationlandscapes11.ddev.site/themes/custom/locationlandscapes/css/style.css
+200 https://locationlandscapes11.ddev.site/themes/custom/locationlandscapes/css/ck5style.css

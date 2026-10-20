@@ -1,0 +1,23 @@
+uuid: f1520e5c-f3f3-4b2a-8833-e99fc5065586
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_webform
+    - field.storage.block_content.field_ebt_settings
+  module:
+    - ebt_core
+_core:
+  default_config_hash: VOgJYtNjHNsjml3J6mwuL3oMqXc4JPjPD8gGVHyGftg
+id: block_content.ebt_webform.field_ebt_settings
+field_name: field_ebt_settings
+entity_type: block_content
+bundle: ebt_webform
+label: 'Block settings'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: ebt_settings

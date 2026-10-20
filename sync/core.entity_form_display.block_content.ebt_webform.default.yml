@@ -1,0 +1,60 @@
+uuid: 3500b9a6-0253-4f83-83a4-7ee0e6aceaa6
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_webform
+    - field.field.block_content.ebt_webform.body
+    - field.field.block_content.ebt_webform.field_ebt_settings
+    - field.field.block_content.ebt_webform.field_ebt_webform_form
+  module:
+    - ebt_core
+    - text
+    - webform
+_core:
+  default_config_hash: rtuRBm-Z8ZrdOhT7mc0JrMlWONwesUqNR-IwTM6axEY
+id: block_content.ebt_webform.default
+targetEntityType: block_content
+bundle: ebt_webform
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_ebt_settings:
+    type: ebt_settings_default
+    weight: 29
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ebt_webform_form:
+    type: webform_entity_reference_select
+    weight: 28
+    region: content
+    settings:
+      default_data: true
+      webforms: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }
