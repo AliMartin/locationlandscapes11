@@ -14157,7 +14157,8 @@ a > .ck-content code {
 .ck-content #block-locationlandscapes-newsletter {
   margin-bottom: 40px;
 }
-.ck-content #block-locationlandscapes-newsletter .form-control {
+.ck-content #block-locationlandscapes-newsletter .form-control,
+.ck-content #block-locationlandscapes-newsletter .form-select {
   border: 1px solid #f2f2f2;
 }
 .ck-content #block-locationlandscapes-newsletter h2, .ck-content #block-locationlandscapes-newsletter .h2 {
@@ -14166,10 +14167,21 @@ a > .ck-content code {
   line-height: 24px;
   margin-bottom: 20px;
 }
-.ck-content #block-locationlandscapes-newsletter .form-control {
+.ck-content #block-locationlandscapes-newsletter .form-control,
+.ck-content #block-locationlandscapes-newsletter .form-select {
   margin-bottom: 0;
   font-size: 0.7em;
   padding: 6px 12px;
+}
+.ck-content #block-locationlandscapes-newsletter .form-select {
+  width: 100%;
+  max-width: 100%;
+  height: 34px;
+  border-radius: 30px;
+  color: #0d0d0d;
+  background-color: #fff;
+  line-height: 14px;
+  padding-right: 2.25rem;
 }
 .ck-content #block-locationlandscapes-newsletter .webform-submission-form {
   max-width: 900px;
@@ -14181,6 +14193,9 @@ a > .ck-content code {
 .ck-content #block-locationlandscapes-newsletter .webform-submission-form > div {
   max-width: 200px;
   margin-bottom: 0;
+}
+.ck-content #block-locationlandscapes-newsletter .webform-submission-form > .form-item {
+  width: 200px;
 }
 .ck-content #block-locationlandscapes-newsletter .webform-submission-form > div.webform-confirmation {
   max-width: inherit;

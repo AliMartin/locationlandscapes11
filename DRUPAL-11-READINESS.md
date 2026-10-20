@@ -65,6 +65,7 @@ In themes/custom/locationlandscapes/:
 - Replaced Renderer::renderPlain() with **renderInIsolation()** and removed an unused import.
 - Rebuilt site and CKEditor CSS, including source maps, against Bootstrap5 4.0.8 using Dart Sass 1.98.0.
 - Corrected the theme README title and documented compatibility/build information.
+- Corrected the footer newsletter County select after the upgrade: extended the footer styles to Bootstrap's `.form-select`, matched the input height, width, font size, white background and rounded corners, and retained the dropdown arrow. Rebuilt CSS/source maps, cleared Drupal caches and visually verified the footer in Chrome.
 
 All five custom Twig templates parsed successfully, and the preparation scan reported zero custom-theme findings.
 
